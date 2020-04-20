@@ -1,0 +1,440 @@
+*{
+    padding :0 ;
+    margin  :0 ;
+}
+
+body{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+}
+
+.marquee{
+    background-color: #ffffffd7;
+    color: #0006ff
+}
+
+p{
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+h2{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+h3{
+    font : #fff;
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fff;
+}
+
+h4{
+    font : white;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+    /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Halaman Buku*/
+
+.buku {
+    padding: 0 6px;
+    margin-right: 10px;
+    float: left;
+    border:1px solid #dedede;
+    width: 23%;
+}
+
+.gallery:hover {
+}
+
+.foto img {
+    padding:5px 0 5px 0;
+    width: 100%;
+    height: 250px;
+}
+
+.judul {
+    font-size: 13px;
+    font-weight: 600;
+    padding:0 0 3px 0;
+    text-align: left;
+} 
+
+.penulis{
+    font-size:10px;
+    padding-bottom: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    font-size: 20px;
+    color: #d4d2db;
+}
+
+a:hover{
+    color: #000;
+}
+
+#container{
+    max-width: 11400px;
+    text-align: : center;
+    background: #fff;
+    overflow: hidden;
+    border:0px solid #d9d9d9;
+    margin : 0px 90px;
+    padding:20px 20px 20px 20px;
+}
+
+.header{
+    border-radius: 10px 10px 0 0 ;
+    padding: 10px 0 0 10px;
+    text-align : center;
+    background-image: url(../images/header.jpg);
+}
+
+.header h1{
+    font-size: 40px;
+    color: red;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align:center;
+}
+
+/* main */
+
+.left{
+    width: 280px;
+    color:#fff;
+    border: 0.5px solid #dedede;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    float: left;
+    background-color: #281e5a;
+}
+
+.left ul{
+    list-style-type: none;
+}
+
+.left ul li{
+    display: block;
+}
+
+.left ul li a{
+    display: block;
+    font-size: 17px;
+    border-bottom: 1px dotted #d4d2db;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    font:  #64bed4;
+}
+
+.left ul li a:hover{
+    color: #ca1414 ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+  
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  max-height: 200px;
+  display: block;
+  margin: auto;
+  width: 100%;"
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.right{
+    width: 280px;
+    color: #fff;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin: 10px 10px;
+    float: right;
+    background-color: #281e5a;
+}
+
+.right ul{
+    list-style-type: none;
+}
+
+.right ul li{
+    display: block;
+}
+
+.right ul li a{
+    display: block;
+    font-size: 17px;
+    border-bottom: 1px dotted #d4d2db;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+
+.right ul li a:hover{
+    color: #ca1414;
+}
+
+#footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #6813c9;
+    clear: both;
+    border: 1px solid #dedede;
+    padding: 15px;
+}
+
+@media screen and(max-width:995px){
+    #container{
+        width: 100%;
+    }
+    #left-columm{
+        width: 70%;
+    }
+    #right-columm{
+        width: 30%;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+/* MEDIA QUIRIES (Responsive)***********/
+
+@media screen and (max-width:1140px){
+    .container{
+        width: 100%;
+    }
+    .left{
+        width: 25%;
+        background: #0c7575d7;
+    }
+    .middle{
+        width: 68%;
+        float: right;
+    }
+     .middle2{
+        width: 90%;
+        float: right;
+    }
+
+
+
+    .right{
+        clear: both;
+        padding: 1% 4%;
+        width: auto;
+        float: none;
+        background: #0c7575d7;   
+    }
+}
+.sidebar .widget {
+    background: #fff;
+    border: 0px solid #d5d5d5;
+    margin-top: 5px;
+    padding: 9px 9px 19px;
+
+<style type="text/css">
+      * {
+        font-family: "Trebuchet MS";
+      }
+      h1 {
+        text-transform: uppercase;
+        color: salmon;
+      }
+    button {
+          background-color: salmon;
+          color: #fff;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 12px;
+          border: 0px;
+          margin-top: 20px;
+    }
+    label {
+      margin-top: 10px;
+      float: left;
+      text-align: left;
+      width: 100%;
+    }
+    input {
+      padding: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #f8f8f8;
+      border: 2px solid #ccc;
+      outline-color: salmon;
+    }
+    div {
+      width: 100%;
+      height: auto;
+    }
+    .base {
+      width: 400px;
+      height: auto;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #ededed;
+    }
